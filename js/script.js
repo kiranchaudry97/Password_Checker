@@ -1,5 +1,5 @@
 // =======================
-// Wachtwoord Checker met zxcvbn + patroonherkenning
+// Wachtwoord Checker met zxcvbn + patroonherkenning + zie commit berichten 
 // =======================
 
 // Elementen
