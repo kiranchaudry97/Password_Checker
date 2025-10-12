@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedbackformulier - Wachtwoord Sterkte Checker</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    /* Feedback specifieke styling */
+    .feedback-section {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: var(--r-md);
+      box-shadow: 0 4px 14px rgba(0,0,0,.08);
+    }
+
+    .feedback-title {
+      text-align: center;
+      color: #1a1a1a;
+      margin-bottom: 2rem;
+      font-size: 24px;
+      font-weight: 800;
+    }
+
+    .feedback-form {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .feedback-form label {
+      display: grid;
+      gap: 0.5rem;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .feedback-form input,
+    .feedback-form select,
+    .feedback-form textarea {
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      border-radius: var(--r-sm);
+      font-size: 14px;
+      font-family: inherit;
+      transition: border-color 0.2s ease;
+    }
+
+    .feedback-form input:focus,
+    .feedback-form select:focus,
+    .feedback-form textarea:focus {
+      outline: none;
+      border-color: #FFC700;
+      box-shadow: 0 0 0 2px rgba(255, 199, 0, 0.2);
+    }
+
+    .feedback-form textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .field-hint {
+      color: #666;
+      font-size: 12px;
+      font-weight: normal;
+      margin-top: -0.25rem;
+    }
+
+    .feedback-btn {
+      background: #FFC700;
+      color: #000;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: var(--r-sm);
+      font-weight: 700;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      justify-self: center;
+    }
+
+    .feedback-btn:hover {
+      background: #FFB300;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #666;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .back-link:hover {
+      color: #FFC700;
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div class="logo">🔑</div>
+      <h1 class="title">Wachtwoord Sterkte Checker</h1>
+    </header>
+
+    <a href="Password_checker.html" class="back-link">← Terug naar Password Checker</a>
+
+    <!-- ======================================
+         FEEDBACKFORMULIER – GEBRUIKERS
+         ====================================== -->
+    <section class="feedback-section fade-in">
+      <h2 class="feedback-title">📝 Feedbackformulier voor Gebruikers</h2>
+      <form class="feedback-form" id="feedbackForm" action="https://formspree.io/f/mjkapgag" method="POST">
+        <!-- Hidden fields voor Formspree - Anonieme feedback -->
+        <input type="hidden" name="_subject" value="Anonieme Password Checker Feedback">
+        <input type="hidden" name="_replyto" value="kiran.chaud-ry@student.ehb.be">
+        <input type="hidden" name="_next" value="">
+        <input type="hidden" name="_format" value="plain">
+        
+        <label>
+          Jouw naam (of anoniem):
+          <input type="text" name="gebruiker" placeholder="Bijv. Jan, Marie, of laat leeg voor anoniem">
+          <small class="field-hint">💡 Volledig anoniem mogelijk - geen email nodig</small>
+        </label>
+
+        <label>
+          Algemeen oordeel over de tool:
+          <select name="oordeel" required>
+            <option value="">-- Kies een optie --</option>
+            <option value="zeer-goed">Zeer goed</option>
+            <option value="goed">Goed</option>
+            <option value="redelijk">Redelijk</option>
+            <option value="matig">Matig</option>
+            <option value="slecht">Slecht</option>
+          </select>
+        </label>
+
+        <label>
+          Hoe gebruiksvriendelijk vind je de tool? (1–5):
+          <select name="gebruiksvriendelijk">
+            <option value="">-- Kies beoordeling --</option>
+            <option value="5">5 - Uitstekend</option>
+            <option value="4">4 - Goed</option>
+            <option value="3">3 - Voldoende</option>
+            <option value="2">2 - Matig</option>
+            <option value="1">1 - Slecht</option>
+          </select>
+        </label>
+
+        <label>
+          Hoe nuttig vind je de informatie? (1–5):
+          <select name="nuttigheid">
+            <option value="">-- Kies beoordeling --</option>
+            <option value="5">5 - Uitstekend</option>
+            <option value="4">4 - Goed</option>
+            <option value="3">3 - Voldoende</option>
+            <option value="2">2 - Matig</option>
+            <option value="1">1 - Slecht</option>
+          </select>
+        </label>
+
+        <label>
+          Hoe duidelijk zijn de instructies? (1–5):
+          <select name="duidelijkheid">
+            <option value="">-- Kies beoordeling --</option>
+            <option value="5">5 - Uitstekend</option>
+            <option value="4">4 - Goed</option>
+            <option value="3">3 - Voldoende</option>
+            <option value="2">2 - Matig</option>
+            <option value="1">1 - Slecht</option>
+          </select>
+        </label>
+
+        <label>
+          Wat vond je goed aan deze tool?
+          <textarea name="positief" rows="3" placeholder="Wat beviel je goed?"></textarea>
+        </label>
+
+        <label>
+          Wat kan er verbeterd worden?
+          <textarea name="verbeteringen" rows="3" placeholder="Suggesties voor verbetering..."></textarea>
+        </label>
+
+        <label>
+          Zou je deze tool aanbevelen aan anderen?
+          <select name="aanbeveling">
+            <option value="">-- Kies een optie --</option>
+            <option value="zeker">Zeker wel</option>
+            <option value="waarschijnlijk">Waarschijnlijk wel</option>
+            <option value="misschien">Misschien</option>
+            <option value="waarschijnlijk-niet">Waarschijnlijk niet</option>
+            <option value="zeker-niet">Zeker niet</option>
+          </select>
+        </label>
+
+        <button type="submit" class="feedback-btn">Verzenden</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Password Checker Project - Future Portfolio - Kiran Chaudry</p>
+    </footer>
+  </main>
+
+  <!-- EmailJS voor direct verzenden -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+  <script>
+    // Initialize EmailJS
+    (function() {
+        emailjs.init('nSOfvlr3qgn89hK9f'); // Public Key
+    })();
+
+    // Message display function
+    function showMessage(message, type) {
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `message ${type}`;
+      messageDiv.textContent = message;
+      messageDiv.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 15px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        z-index: 1000;
+        max-width: 300px;
+        ${type === 'success' ? 'background-color: #4CAF50;' : 'background-color: #f44336;'}
+      `;
+      
+      document.body.appendChild(messageDiv);
+      
+      // Remove after 4 seconds
+      setTimeout(() => {
+        if (messageDiv.parentNode) {
+          messageDiv.parentNode.removeChild(messageDiv);
+        }
+      }, 4000);
+    }
+
+    // Feedback form handling met meerdere fallbacks
+    document.getElementById('feedbackForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      
+      const form = this;
+      const submitButton = form.querySelector('.feedback-btn');
+      const originalText = submitButton.textContent;
+      
+      // Show loading state
+      submitButton.textContent = 'Verzenden...';
+      submitButton.disabled = true;
+
+      // Verzamel formulierdata
+      const formData = new FormData(form);
+      
+      // Template parameters voor anonieme feedback email
+      const templateParams = {
+        gebruiker: formData.get('gebruiker') || 'Anonieme gebruiker',
+        oordeel: formData.get('oordeel') || 'Niet opgegeven',
+        gebruiksvriendelijk: formData.get('gebruiksvriendelijk') || 'Niet beoordeeld',
+        nuttigheid: formData.get('nuttigheid') || 'Niet beoordeeld',
+        duidelijkheid: formData.get('duidelijkheid') || 'Niet beoordeeld',
+        positief: formData.get('positief') || 'Geen opmerkingen',
+        verbeteringen: formData.get('verbeteringen') || 'Geen suggesties',
+        aanbeveling: formData.get('aanbeveling') || 'Niet opgegeven',
+        datum: new Date().toLocaleDateString('nl-NL')
+      };
+
+      console.log('Verzenden feedback:', templateParams);
+
+      // Probeer verschillende services voor direct verzenden (geen email programma nodig)
+      let success = false;
+
+      // Method 1: EmailJS (als het correct geconfigureerd is)
+      if (!success) {
+        try {
+          const result = await emailjs.send(
+            'service_2mycygm',    
+            'template_q6rfnzi',   
+            templateParams,
+            'nSOfvlr3qgn89hK9f'   
+          );
+
+          console.log('✅ EmailJS succesvol:', result);
+          showMessage('✅ Feedback succesvol verzonden! Bedankt voor je mening.', 'success');
+          form.reset();
+          success = true;
+
+        } catch (error) {
+          console.log('EmailJS niet beschikbaar:', error.message);
+        }
+      }
+
+      // Method 2: Formspree (gratis service - geen setup nodig)
+      if (!success) {
+        try {
+          const response = await fetch('https://formspree.io/f/mjkapgag', {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              email: 'noreply@passwordchecker.com',
+              name: templateParams.gebruiker,
+              _replyto: 'kiran.chaud-ry@student.ehb.be',
+              _subject: `Anonieme Password Checker Feedback - ${templateParams.gebruiker}`,
+              message: `
+🔑 ANONIEME PASSWORD CHECKER FEEDBACK
+
+👤 Gebruiker: ${templateParams.gebruiker}
+📅 Datum: ${templateParams.datum}
+
+📊 BEOORDELING:
+• Algemeen oordeel: ${templateParams.oordeel}
+• Gebruiksvriendelijkheid: ${templateParams.gebruiksvriendelijk}/10
+• Nuttigheid informatie: ${templateParams.nuttigheid}/10
+• Duidelijkheid instructies: ${templateParams.duidelijkheid}/10
+
+👍 WAT WAS GOED:
+${templateParams.positief}
+
+🔧 VERBETERPUNTEN:
+${templateParams.verbeteringen}
+
+💡 AANBEVELING AAN ANDEREN: ${templateParams.aanbeveling}
+
+---
+Automatisch verzonden via Password Checker Tool
+              `
+            })
+          });
+
+          if (response.ok) {
+            console.log('✅ Formspree succesvol');
+            showMessage('✅ Feedback succesvol verzonden! Bedankt voor je mening.', 'success');
+            form.reset();
+            success = true;
+          } else {
+            throw new Error('Formspree response niet ok');
+          }
+
+        } catch (error) {
+          console.log('Formspree niet beschikbaar:', error.message);
+        }
+      }
+
+      // Method 3: Netlify Forms (werkt op Netlify hosting)
+      if (!success) {
+        try {
+          const response = await fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams({
+              'form-name': 'feedback',
+              'name': templateParams.gebruiker,
+              'email': 'kiran.chaud-ry@student.ehb.be',
+              'message': `Password Checker Feedback van ${templateParams.gebruiker}\n\nBeoordeling: ${templateParams.oordeel}\nGebruiksvriendelijkheid: ${templateParams.gebruiksvriendelijk}/10\nNuttigheid: ${templateParams.nuttigheid}/10\nDuidelijkheid: ${templateParams.duidelijkheid}/10\n\nPositief: ${templateParams.positief}\n\nVerbeteringen: ${templateParams.verbeteringen}\n\nAanbeveling: ${templateParams.aanbeveling}`
+            })
+          });
+
+          if (response.ok) {
+            console.log('✅ Netlify Forms succesvol');
+            showMessage('✅ Feedback succesvol verzonden! Bedankt voor je mening.', 'success');
+            form.reset();
+            success = true;
+          }
+
+        } catch (error) {
+          console.log('Netlify Forms niet beschikbaar:', error.message);
+        }
+      }
+
+      // Laatste fallback: Show data en mailto optie
+      if (!success) {
+        const emailBody = `
+ANONIEME FEEDBACK - PASSWORD CHECKER
+====================================
+
+👤 Gebruiker: ${templateParams.gebruiker}
+ Datum: ${templateParams.datum}
+
+BEOORDELING:
+⭐ Algemeen oordeel: ${templateParams.oordeel}
+🎯 Gebruiksvriendelijkheid (1-10): ${templateParams.gebruiksvriendelijk}
+📚 Nuttigheid informatie (1-10): ${templateParams.nuttigheid}
+📋 Duidelijkheid instructies (1-10): ${templateParams.duidelijkheid}
+
+👍 WAT WAS GOED:
+${templateParams.positief}
+
+🔧 VERBETERPUNTEN:
+${templateParams.verbeteringen}
+
+💡 AANBEVELING AAN ANDEREN: ${templateParams.aanbeveling}
+
+---
+✉️ Naar: kiran.chaud-ry@student.ehb.be
+🌐 Verzonden via Password Checker Tool (Anoniem)
+        `.trim();
+
+        // Toon gebruiker de opties
+        showMessage('⚠️ Direct verzenden niet beschikbaar. Kies een optie hieronder...', 'error');
+        
+        setTimeout(() => {
+          const choice = confirm('❓ Hoe wil je de feedback verzenden?\n\n✅ OK = Open email programma\n❌ Annuleren = Toon feedback tekst om te kopiëren');
+          
+          if (choice) {
+            // Open email programma
+            const mailtoLink = `mailto:kiran.chaud-ry@student.ehb.be?subject=${encodeURIComponent('Password Checker Gebruiker Feedback - ' + templateParams.gebruiker)}&body=${encodeURIComponent(emailBody)}`;
+            window.open(mailtoLink, '_self');
+          } else {
+            // Toon tekst om te kopiëren
+            const copyText = `Kopieer deze tekst en stuur naar: kiran.chaud-ry@student.ehb.be\n\nOnderwerp: Password Checker Gebruiker Feedback - ${templateParams.gebruiker}\n\n${emailBody}`;
+            
+            if (navigator.clipboard) {
+              navigator.clipboard.writeText(copyText).then(() => {
+                alert('📋 Feedback gekopieerd naar klembord!\n\nJe kunt het nu plakken in je email.');
+              });
+            } else {
+              // Fallback voor oudere browsers
+              const textArea = document.createElement('textarea');
+              textArea.value = copyText;
+              document.body.appendChild(textArea);
+              textArea.select();
+              document.execCommand('copy');
+              document.body.removeChild(textArea);
+              alert('📋 Feedback gekopieerd naar klembord!\n\nJe kunt het nu plakken in je email.');
+            }
+          }
+        }, 2000);
+      }
+
+      // Reset button state
+      setTimeout(() => {
+        submitButton.textContent = originalText;
+        submitButton.disabled = false;
+      }, 1000);
+    });
+
+    // Fade-in animation
+    document.addEventListener('DOMContentLoaded', function() {
+      const fadeElements = document.querySelectorAll('.fade-in');
+      fadeElements.forEach(el => el.classList.add('fade-in'));
+    });
+  </script>
+</body>
+</html>
