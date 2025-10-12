@@ -1,5 +1,5 @@
 # E-mail Setup Instructies voor Feedback Formulier
-
+### zie commit bericht 
 ## ✅ Optie 1: Formspree (Aanbevolen - Eenvoudigst)
 
 **🎉 VOORDELEN:**
@@ -39,52 +39,3 @@
 
 **🚀 KLAAR!** Je feedback formulier verstuurt nu automatisch e-mails zonder e-mail programma!
 
-## Optie 2: EmailJS (Meer configuratie nodig)
-
-1. **Account aanmaken:**
-   - Ga naar https://www.emailjs.com/
-   - Maak een gratis account aan  
-   - Configureer e-mail service en template (complexer)
-
-2. **Voor developers die meer controle willen:**
-   - EmailJS biedt meer customization opties
-   - Vereist API keys en template configuratie
-   - 200 gratis e-mails per maand
-
-## Optie 3: Mailto Fallback (Altijd beschikbaar)
-
-De huidige code heeft al een fallback die het standaard e-mail programma opent als de automatische verzending niet werkt.
-
-## 🧪 Test Procedure
-
-1. **Ga naar je feedback formulier** (`feedback.html`)
-2. **Vul alle velden in** met testgegevens
-3. **Klik "Verzenden"**
-4. **Verwacht resultaat:**
-   - ✅ "Feedback succesvol verzonden!" verschijnt
-   - 📧 E-mail arriveert bij `kiran.chaud-ry@student.ehb.be`
-   - ⏱️ Binnen 1-2 minuten
-
-## ⚠️ Belangrijk
-
-- **Formspree gratis limiet:** 50 submissions per maand
-- **Eerste submission:** Formspree stuurt verificatie e-mail
-- **Spam filtering:** Automatisch ingebouwd bij Formspree
-- **Backup systeem:** Mailto fallback als Formspree niet werkt
-
-## 📊 Huidige Status
-
-- ✅ **Formspree ID actief:** `mjkapgag` 
-- ✅ **E-mail ontvanger:** `kiran.chaud-ry@student.ehb.be`
-- ✅ **Fallback systeem:** Beschikbaar
-- ✅ **Gebruiker feedback:** Direct verzenden zonder e-mail programma
-
-## 🔧 Troubleshooting
-
-**Als feedback niet aankomt:**
-1. Check spam folder 
-2. Controleer Formspree dashboard op submissions
-3. Verifieer dat Form ID correct is (`mjkapgag`)
-4. Test met andere e-mail adres
-
-**Formspree Dashboard:** https://formspree.io/forms (login vereist)
