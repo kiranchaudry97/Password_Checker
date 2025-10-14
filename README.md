@@ -3,9 +3,7 @@
 ## 📋 Inleiding en Onderzoeksvraag
 
 **Hoofdonderzoeksvraag:**
-
-In dit onderzoek wordt nagegaan hoe software gebruikers kan helpen hun accounts beter te beveiligen door hen bewust te maken van risico's en door middel van een interactief prototype dat inzicht geeft in veilige wachtwoordpraktijken en accountbeveiliging.
-
+Hoe kan software gebruikers helpen hun accounts beter te beveiligen door hen bewust te maken van risico’s en door middel van een interactief prototype dat inzicht geeft in veilige wachtwoordpraktijken en accountbeveiliging
 
 ### Korte omschrijving en doel
 Sterke wachtwoorden zijn cruciaal tegen hackers en datalekken. Dit onderzoek bekijkt breder dan wachtwoordsterkte alleen ook: bewustwording rond datalekken, wachtwoordhergebruik en veilig aanmeldgedrag. Doel is te begrijpen welke interface-elementen en feedback (tekst/visueel/interactief) positief gebruikersgedrag beïnvloeden.
