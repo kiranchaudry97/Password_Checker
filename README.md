@@ -153,6 +153,16 @@ Password_Checker/
 ### Copy Functionaliteit
 *[Afbeelding wordt toegevoegd: Clipboard copy button met visuele feedback]*
 
+
+
+### Screenshots en Demonstratie Materiaal:
+- **Live applicatie screenshots** van eigen Password Checker prototype
+- **Real-time feedback voorbeelden** tijdens wachtwoord invoer
+- **Responsive design showcase** op verschillende apparaten
+- **Feedback formulier demo** met anonieme gebruikersinteractie
+
+*Alle visuele materialen zijn zelf te produceren op basis van de gedocumenteerde onderzoeksdata en werkende prototype.*
+
 ## ✅ Conclusies
 
 Het onderzoek bevestigt dat **menselijk gedrag** (hergebruik, voorspelbaarheid, onveilige opslag) de grootste risicofactor is. Software kan dit gedrag positief sturen met duidelijke feedback, waarschuwingen en educatieve tips.
