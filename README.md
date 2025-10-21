@@ -133,6 +133,8 @@ Password_Checker/
 ## 📸 Screenshots en Demonstratie
 
 ### Hoofdinterface
+![image alt]()
+
 *[Afbeelding wordt toegevoegd: Password Checker hoofdscherm met wachtwoord invoer en real-time feedback]*
 
 ### Real-time Wachtwoord Analyse
