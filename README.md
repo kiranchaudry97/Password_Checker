@@ -1,5 +1,21 @@
 # Password Checker - Bewustwording & Wachtwoordbeveiliging
 
+## Inhoud
+>>>>>>> Stashed changes
+
+- [Beschrijving](#beschrijving)
+- [Installatie](#installatie)
+- [Projectstructuur](#projectstructuur)
+- [Functionaliteiten](#functionaliteiten)
+- [Technologieën](#technologieën)
+- [Gebruik](#gebruik)
+- [Doelgroep](#doelgroep)
+- [Project Status](#project-status)
+- [Screenshots](#screenshots)
+- [Bronnen](#bronnen)
+
+---
+
 ## 📋 Inleiding en Onderzoeksvraag
 
 **Hoofdonderzoeksvraag:**
