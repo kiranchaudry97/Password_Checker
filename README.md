@@ -1,6 +1,6 @@
 # Password Checker - Bewustwording & Wachtwoordbeveiliging
 
-# � Inhoud
+## Inhoud
 
 - [Inleiding en Onderzoeksvraag](#-inleiding-en-onderzoeksvraag)
 - [Problemen en Doelstellingen](#-problemen-en-doelstellingen)
