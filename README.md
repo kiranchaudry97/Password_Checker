@@ -1,20 +1,20 @@
 # Password Checker - Bewustwording & Wachtwoordbeveiliging
 
-## Inhoud
+# � Inhoud
 
-
-- [Beschrijving](#Inleidingenonderzoek)
-- [Installatie](#installatie)
-- [Projectstructuur](#projectstructuur)
-- [Functionaliteiten](#functionaliteiten)
-- [Technologieën](#technologieën)
-- [Gebruik](#gebruik)
-- [Doelgroep](#doelgroep)
-- [Project Status](#project-status)
-- [Screenshots](#screenshots)
-- [Bronnen](#bronnen)
+- [Inleiding en Onderzoeksvraag](#-inleiding-en-onderzoeksvraag)
+- [Problemen en Doelstellingen](#-problemen-en-doelstellingen)
+- [Plan van Aanpak](#-plan-van-aanpak)
+- [Onderzoeksresultaten](#-onderzoeksresultaten-per-deelvraag)
+- [Statistische Onderbouwing](#-statistische-onderbouwing)
+- [Technische Implementatie](#️-technische-implementatie)
+- [Installatie en Setup](#-installatie-en-setup)
+- [Screenshots en Demonstratie](#-screenshots-en-demonstratie)
+- [Contact en Status](#contact)
 
 ---
+
+
 
 ## 📋 Inleiding en Onderzoeksvraag
 
