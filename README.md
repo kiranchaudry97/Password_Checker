@@ -1,7 +1,7 @@
 # Password Checker - Bewustwording & Wachtwoordbeveiliging
 
 ## Inhoud
->>>>>>> Stashed changes
+
 
 - [Beschrijving](#beschrijving)
 - [Installatie](#installatie)
