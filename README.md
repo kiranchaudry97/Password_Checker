@@ -130,6 +130,20 @@ Password_Checker/
 - **ChatGPT:** Ontwikkeling van responsive container designs en gebruikersinterface optimalisatie en design idee.
 - **VS Code Copilot:**  Debugging ondersteuning tijdens ontwikkeling , instructie van email setup, readme file documentatie.
 
+  ## 🚀 Installatie en Setup
+
+### Vereisten:
+- Moderne webbrowser (Chrome, Firefox, Safari, Edge)
+- Internetverbinding voor externe libraries
+
+### Lokaal uitvoeren:
+1. Download of clone de repository
+2. Open `Password_checker.html` in je webbrowser
+3. Geen extra installatie vereist - werkt direct
+
+### Live demo:
+Open `Password_checker.html` rechtstreeks vanuit de bestandsverkenner of gebruik een lokale server.
+
 ## 📸 Screenshots en Demonstratie
 
 ### Hoofdinterface
