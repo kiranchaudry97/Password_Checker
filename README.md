@@ -133,27 +133,43 @@ Password_Checker/
 ## 📸 Screenshots en Demonstratie
 
 ### Hoofdinterface
-![image alt]()
+![image alt](https://github.com/kiranchaudry97/Password_Checker/blob/3b13008816ec552168c19f2eb83ce873b1709153/screenshots/password_checker_sceenshot.png)
 
-*[Afbeelding wordt toegevoegd: Password Checker hoofdscherm met wachtwoord invoer en real-time feedback]*
+
+*[ Password Checker hoofdscherm met wachtwoord invoer en real-time feedback]*
+
 
 ### Real-time Wachtwoord Analyse
-*[Afbeelding wordt toegevoegd: Sterktebalk en checklist tijdens het typen van een wachtwoord]*
+![image alt](https://github.com/kiranchaudry97/Password_Checker/blob/3b13008816ec552168c19f2eb83ce873b1709153/screenshots/password_checker_sceenshot.png)
+*[ Sterktebalk en checklist tijdens het typen van een wachtwoord]*
 
 ### Educatieve FAQ Sectie
-*[Afbeelding wordt toegevoegd: Inklapbare FAQ sectie met 9 onderwerpen over wachtwoordveiligheid]*
+![image alt](https://github.com/kiranchaudry97/Password_Checker/blob/3b13008816ec552168c19f2eb83ce873b1709153/screenshots/Password_checker_screenshot1.png)
+
+![image alt](https://github.com/kiranchaudry97/Password_Checker/blob/3b13008816ec552168c19f2eb83ce873b1709153/screenshots/informatie_screenshot1.png)
+*[ Inklapbare FAQ sectie met 9 onderwerpen over wachtwoordveiligheid]*
 
 ### Statistieken Dashboard
-*[Afbeelding wordt toegevoegd: Overzicht van Nederlandse cybersecurity statistieken]*
+![image alt](https://github.com/kiranchaudry97/Password_Checker/blob/3b13008816ec552168c19f2eb83ce873b1709153/screenshots/statieken_informatie_screenshot.png)
+
+![image alt](https://github.com/kiranchaudry97/Password_Checker/blob/3b13008816ec552168c19f2eb83ce873b1709153/screenshots/Statisch_onderbouwing_screenshot.png)
+*[ Overzicht van Nederlandse cybersecurity statistieken]*
+
+### Bronnen refrentie
+![image alt](https://github.com/kiranchaudry97/Password_Checker/blob/3b13008816ec552168c19f2eb83ce873b1709153/screenshots/Bronnen_refrentie_screenshot.png)
+*[bronnen refrentie met links ]*
+
 
 ### Feedback Formulier
-*[Afbeelding wordt toegevoegd: Anoniem feedback systeem met 1-5 schaal beoordeling]*
+![image alt](https://github.com/kiranchaudry97/Password_Checker/blob/3b13008816ec552168c19f2eb83ce873b1709153/screenshots/feeback_formulier.png)
+*[ Anoniem feedback systeem met 1-5 schaal beoordeling]*
 
 ### Responsive Design
-*[Afbeelding wordt toegevoegd: Mobile weergave van de password checker tool]*
+![image alt](https://github.com/kiranchaudry97/Password_Checker/blob/29c8697e78db5f95f1e0b488a490a7085d761223/screenshots/responsive.png)
+*[ Mobile weergave van de password checker tool]*
 
-### Copy Functionaliteit
-*[Afbeelding wordt toegevoegd: Clipboard copy button met visuele feedback]*
+
+
 
 
 
