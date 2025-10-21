@@ -139,12 +139,15 @@ Password_Checker/
 - Formspree API voor feedback verzameling
 - EmailJS fallback voor email integratie
 
-### AI-Tools en Ondersteuning:
+### AI-Tools en Ondersteuning :
 - **Perplexity AI:** Literatuuronderzoek en bronverificatie voor academische onderbouwing
 - **Scribbr AI:** Literatuuronderzoek ondersteuning en academische bronnenanalyse
 - **GitHub Copilot:** Code suggesties voor JavaScript functionaliteiten en CSS grid layouts
 - **ChatGPT:** Ontwikkeling van responsive container designs en gebruikersinterface optimalisatie en design idee.
 - **VS Code Copilot:**  Debugging ondersteuning tijdens ontwikkeling , instructie van email setup, readme file documentatie.
+- Dropbox. *zxcvbn: Low-Budget Password Strength Estimation.* https://github.com/dropbox/zxcvbn
+- Formspree. *Form API Documentation.* https://formspree.io/
+
 
   ## 🚀 Installatie en Setup
 
@@ -199,11 +202,6 @@ Open `Password_checker.html` rechtstreeks vanuit de bestandsverkenner of gebruik
 *[ Mobile weergave van de password checker tool]*
 
 
-
-
-
-
-### Screenshots en Demonstratie Materiaal:
 - **Live applicatie screenshots** van eigen Password Checker prototype
 - **Real-time feedback voorbeelden** tijdens wachtwoord invoer
 - **Responsive design showcase** op verschillende apparaten
@@ -212,9 +210,7 @@ Open `Password_checker.html` rechtstreeks vanuit de bestandsverkenner of gebruik
 *Alle visuele materialen zijn zelf te produceren op basis van de gedocumenteerde onderzoeksdata en werkende prototype.*
 
 
-### Technische Implementatie:
-- Dropbox. *zxcvbn: Low-Budget Password Strength Estimation.* https://github.com/dropbox/zxcvbn
-- Formspree. *Form API Documentation.* https://formspree.io/
+
 
 ---
 
