@@ -3,7 +3,7 @@
 ## Inhoud
 
 
-- [Beschrijving](#beschrijving)
+- [Beschrijving](#Inleidingenonderzoek)
 - [Installatie](#installatie)
 - [Projectstructuur](#projectstructuur)
 - [Functionaliteiten](#functionaliteiten)
