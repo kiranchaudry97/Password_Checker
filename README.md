@@ -5,7 +5,6 @@
 - [Inleiding en Onderzoeksvraag](#-inleiding-en-onderzoeksvraag)
 - [Problemen en Doelstellingen](#-problemen-en-doelstellingen)
 - [Plan van Aanpak](#-plan-van-aanpak)
-- [Onderzoeksresultaten](#-onderzoeksresultaten-per-deelvraag)
 - [Statistische Onderbouwing](#-statistische-onderbouwing)
 - [Technische Implementatie](#️-technische-implementatie)
 - [Installatie en Setup](#-installatie-en-setup)
@@ -64,51 +63,6 @@ Als eindresultaat is een prototype (HTML/CSS/JS) ontwikkeld dat gebruikers direc
 - **Brede eindgebruikers** (niet-technisch)
 - **Studenten/docenten** die hun beveiliging willen verbeteren
 
-## 📊 Onderzoeksresultaten per Deelvraag
-
-### 5.1 Hoe kunnen gebruikers hun wachtwoord beter beveiligen?
-- **Lang** (≥12–16 tekens), **complex** (Aa1!), **uniek** per account
-- **Manager en 2FA** sterk aanbevolen; nooit opslaan in losse notities/bestanden
-- **Bronnen:** Microsoft, Kaspersky, LastPass, Consumentenbond, Keeper Security
-
-### 5.2 Hoe en waarom worden wachtwoorden gelekt/gestolen?
-- **Mix van menselijke fouten**, phishing, onveilige opslag, kwetsbaarheden, en hergebruik
-- **Hoofdoorzaken:** Sociale engineering, onveilige databases, hergebruik tussen services
-
-### 5.3 Welke fouten maken gebruikers het vaakst?
-- **Topfouten:** "123456", "password", te kort, persoonlijke info, patronen ("111111", "qwerty1")
-- **Variaties:** "Welkom01" en onveilige opslag in browsers/notities
-
-### 5.4 Hoe herkennen gebruikers zwakke wachtwoorden?
-- **Kenmerken:** Kort, voorspelbaar, hergebruikt
-- **Tools:** Apparaten en wachtwoordmanagers geven waarschuwingen; online checks bestaan
-
-### 5.5 Welke stappen maken wachtwoorden sterker en unieker?
-- **Wachtwoordzinnen**, manager, regelmatig vernieuwen (na lek)
-- **Geen persoonlijke data**, MFA implementeren
-
-### 5.6 Hoe helpt tweestapsverificatie (2FA)?
-- **Tweede factor** (sms/app/biometrie/security key) blokkeert inlog met enkel wachtwoord
-- **Effectiviteit:** Blokkeert 99,9% van geautomatiseerde aanvallen
-
-### 5.7 Hoe sla/beheer je wachtwoorden veilig (manager)?
-- **Sterk hoofdwachtwoord** (≥16 tekens), MFA op de manager
-- **AES-256 encryptie**, niet in browsernotities bewaren
-
-### 5.8 Hoe voorkom je wachtwoordhergebruik?
-- **Manager/generator**, alerts bij hergebruik
-- **Geen variaties** van hetzelfde wachtwoord gebruiken
-
-### 5.9 Welke rol speelt bewustwording?
-- **Verhoogt risicoperceptie** en zelfeffectiviteit → sterkere wachtwoorden
-- **Meer gebruik** van manager/2FA door educatie
-
-## 📈 Statistische Onderbouwing
-
-- **84%** van NL-gebruikers vertoont onveilig wachtwoordgedrag (KCPEG, 2024)
-- **26%** van Europese mkb'ers had incidenten door zwakke/ongepatchte wachtwoorden (Kaspersky, 2024)
-- **Top-zwakke wachtwoorden** blijven "123456", "password", "qwerty" (ESET/Bright/NordPass)
-- **2FA voorkomt** het merendeel van geautomatiseerde aanvallen; adoptie blijft laag (Google/Microsoft)
 
 ## 🛠️ Technische Implementatie
 
